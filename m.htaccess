@@ -1,5 +1,1 @@
 Option -Indexes
-<Files "README.md">
-Order allow, deny
-Deny from all
-</File>
