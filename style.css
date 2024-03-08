@@ -5,7 +5,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-@media only screen and (max-width: 600px) 
+
 body {
   display: flex;
   justify-content: center;
@@ -15,7 +15,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
- 
 }
 
 .wrapper {
@@ -224,7 +223,7 @@ button:hover p {
   opacity: 0;
   pointer-events: none;
   text-align: center;
-  font-family: "Arial", cursive;
+  font-family: "Arial";
   font-size: 28px;
 }
 
@@ -232,7 +231,7 @@ button:hover p {
   opacity: 0;
   pointer-events: none;
   margin-top: 10px;
-  font-family: "Arial", cursive;
+  font-family: "Arial";
   padding: 0 15px;
   font-size: 19px;
 }
@@ -253,6 +252,12 @@ button:hover p {
 .wrapper.active h1 {
   transition: all 0.5s;
   animation: text1 1s forwards ease-in-out 0.5s;
+  text-align: center;
+  /* Căn văn bản vào giữa */
+  margin: 0 auto;
+  /* Căn giữa theo chiều ngang */
+  max-width: 600px;
+  /* Giới hạn chiều rộng tối đa */
 }
 
 .wrapper.active p {
