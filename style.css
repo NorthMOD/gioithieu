@@ -277,25 +277,3 @@ button:hover p {
     opacity: 1;
   }
 }
-
-.Cuoi {
-  font-size: 16px;
-  padding: 40px 0;
-  color: #4b4c4d;
-}
-
-.Trang {
-  color: white;
-  -webkit-mask: linear-gradient(-60deg,
-      white 30%,
-      #0004,
-      white 70%) right/300% 100%;
-  background-repeat: no-repeat;
-  animation: shimmer 1s infinite;
-}
-
-.Footer .ThanhDieuFtCopyright {
-  text-align: center;
-  color: #aaa;
-  margin-bottom: 0;
-}
